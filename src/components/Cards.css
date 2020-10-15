@@ -66,7 +66,6 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
   box-sizing: border-box;
 }
 
@@ -94,7 +93,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: royalblue;
   font-size: 18px;
   line-height: 24px;
 }
