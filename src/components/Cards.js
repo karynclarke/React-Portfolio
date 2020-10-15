@@ -18,9 +18,9 @@ function Cards() {
 
 						<CardItem src="assets/NoteTakerScreenshot.png " text="NoteTaker" path="/projects" />
 
-						<CardItem src="assets/SearchReps.png " text="SearchMyReps" path="/projects" />
+						<CardItem src="assets/ScreenshotSearchReps.png " text="SearchMyReps" path="/projects" />
 
-						<CardItem src="assets/CodingQuiz.png" text="CodingQuiz" path="/projects" />
+						<CardItem src="assets/ScreenshotCodingQuiz.png" text="CodingQuiz" path="/projects" />
 
 					</ul>
 				</div>

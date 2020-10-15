@@ -1,27 +1,24 @@
-.footer-container{
-  background-color: black;
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
+.contact-container {
+	background-color: white;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
 }
 
 #icons {
-                font-size: 75px;
-                align-items: center;
-            }
-            
-            .fab {
-                color: white;
-            }
-            
-            #icons a:hover {
-                background-color: lightblue;
-                color: white;
-            }
-            
-            #email a:hover {
-                background-color: lightblue;
-                color: white;
-            }
+	font-size: 75px;
+    align-items: center;
+    color: darkblue;
+}
+
+#icons a:hover {
+	background-color: lightblue;
+	color: royalblue;
+}
+
+#email a:hover {
+	background-color: lightblue;
+	color: darkblue;
+}
