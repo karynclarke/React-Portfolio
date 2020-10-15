@@ -6,7 +6,8 @@ import './Footer.css';
 function Footer() {
 	return (
 		<div className="footer-container">
-			<p className="footer-subscription-heading">Contact Info</p>
+			<p className="footer-heading">Contact Info</p>
+			
 			<div className="contact-container">
 				<div className="row " id="email-row ">
 					<Link to="mailto:karynclarke@comcast.net">

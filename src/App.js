@@ -4,6 +4,10 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.css';
 import Home from './components/pages/Home';
+import About from './components/About';
+import Cards from './components/Cards';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -11,9 +15,11 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
- { <Route path='/' exact component= {Home} />}
 
-{/* <Route path='/About' component={About} /><Route path='/Projects' component={Projects} /><Route path='/Contact' component={Contact} /> */} 
+ { <Route path='/' exact component={Home} />}
+ <Route path='/About' component={About} />
+ <Route path='/Projects' component={Cards} />
+ <Route path='/Contact' component={Footer} /> 
 
       </Switch>
 
