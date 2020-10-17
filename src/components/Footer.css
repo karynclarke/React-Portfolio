@@ -4,13 +4,13 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-self: center;
+	align-content: center;
 }
 
 #icons {
 	font-size: 75px;
-    align-items: center;
-    color: darkblue;
+	align-items: center;
+	color: darkblue;
 }
 
 #icons a:hover {
@@ -21,4 +21,10 @@
 #email a:hover {
 	background-color: lightblue;
 	color: darkblue;
+}
+
+.row {
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
 }

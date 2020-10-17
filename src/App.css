@@ -6,39 +6,23 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.about,
+.contact {
   display: flex;
-  height: 90vh;
+  height: 90px;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 18px;
 }
 
-.services {
-  background-image: url("/public/assets/bluebackground.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.cards {
+  display: flex;
+  height: 90px;
+  align-items: stretch;
+  justify-content: center;
+  font-size: 18px;
+  vertical-align: middle;
+
 }
 
-.products {
-  background-image: url("/public/assets/bluebackground.jpg");
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 
-.sign-up {
-  background-image: url("/public/assets/bluebackground.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
