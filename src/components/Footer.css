@@ -1,17 +1,38 @@
-.contact-container {
+
+/* .footer.jumbotron {
+	justify-content: center;
+	align-content: center;
+} */
+
+
+.contact__container {
+	background-color: lightblue;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  /* max-width: 1120px; */
+  width: 100%;
+	margin: 20px auto;
+	color: black;
+}
+
+a {font-size: 28px}
+/* .contact-container {
 	background-color: white;
 	padding: 5px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
-}
+} */
 
+/* #email-row
+#phone-row
 #icons {
 	font-size: 75px;
-	align-items: center;
 	color: darkblue;
-}
+	align-content: center;
+} */
 
 #icons a:hover {
 	background-color: lightblue;
@@ -23,8 +44,3 @@
 	color: darkblue;
 }
 
-.row {
-	justify-content: center;
-	align-items: center;
-	margin-top: 35px;
-}
