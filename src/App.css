@@ -18,8 +18,7 @@
 .cards {
   display: flex;
   height: 90px;
-  /* align-items: stretch; */
-  justify-content: center;
+    justify-content: center;
   font-size: 18px;
   vertical-align: middle;
 
