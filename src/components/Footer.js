@@ -30,7 +30,7 @@ function Footer() {
 				</div>
 
 				<div className="resume__row ">
-						<resume src="./public/assets/BootcampResume.pdf " text="See My Resume Here" path="/Contact" />
+						<resume src="./public/assets/BootcampResume.fa-file-pdf-o " text="See My Resume Here" path="/Contact" />
 						<h3> See My Resume Here </h3>
 				</div>
 			</div>

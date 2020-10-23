@@ -31,11 +31,11 @@ a {font-size: 28px}
 
 #icons a:hover {
 	background-color: lightblue;
-	color: lightblue;
+	color: white !important;
 }
 
 #email a:hover {
 	background-color: lightblue;
-	color: lightblue;
+	color: white !important;
 }
 
