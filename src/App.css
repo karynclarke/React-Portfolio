@@ -1,27 +1,24 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 8px;
-  font-family: 'PT Sans', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 8px;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .home,
 .about,
 .contact {
-  display: flex;
-  height: 90px;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
+	display: flex;
+	height: 90px;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
 }
 
 .cards {
-  display: flex;
-  height: 90px;
-    justify-content: center;
-  font-size: 18px;
-  vertical-align: middle;
-
+	display: flex;
+	height: 90px;
+	justify-content: center;
+	font-size: 18px;
+	vertical-align: middle;
 }
-
-

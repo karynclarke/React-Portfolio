@@ -6,41 +6,36 @@
 
 
 .contact__container {
-	background-color: lightblue;
+	background-color: rgb(10,10,100);
   display: flex;
   flex-flow: column;
   align-items: center;
   /* max-width: 1120px; */
   width: 100%;
 	margin: 20px auto;
-	color: black;
+	color: white;
+	border-radius: 15px;
 }
 
-a {font-size: 28px}
-/* .contact-container {
-	background-color: white;
-	padding: 5px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-} */
 
-/* #email-row
-#phone-row
+a {font-size: 28px}
+
+#col-md-6,
+#email-row,
+#phone-row,
 #icons {
 	font-size: 75px;
-	color: darkblue;
+	color: white !important;
 	align-content: center;
-} */
+}
 
 #icons a:hover {
 	background-color: lightblue;
-	color: royalblue;
+	color: lightblue;
 }
 
 #email a:hover {
 	background-color: lightblue;
-	color: darkblue;
+	color: lightblue;
 }
 

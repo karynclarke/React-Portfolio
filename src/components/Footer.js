@@ -22,7 +22,7 @@ function Footer() {
 							<i className="fa fa-github fa-2x" />{' '}
 						</a>
           </div>
-					<div className="col-md-6">
+					<div className="col-md-6" color="white">
 							<a href="https://www.linkedin.com/in/karyn-clarke-portlandor/" target="_blank" rel="noopener noreferrer">
 								<i className="fa fa-linkedin fa-2x" />{' '}
 							</a>

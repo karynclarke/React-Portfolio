@@ -2,11 +2,9 @@
 	width: 250px;
 	align-content: center;
 	height: auto;
-	margin-top: 50px;
+	margin-top: 15px;
 	margin-left: 15px;
 	margin-right: 15px;
-box-shadow: 0 6px 10px lightblue;
-	
 	float: left;
 }
 
@@ -17,24 +15,29 @@ p {
 	text-align: center;
 	color: white;
 	background-color: rgb(10, 10, 100);
-	opacity: 0.90;
+	/* opacity: 0.90; */
 	padding: 20px;
 	box-sizing: border-box;
-		}
+}
 
 .homeContainer {
 	align-content: center;
-	opacity: 0.90;
+	opacity: 0.9;
 }
 
-.words {
+.words-home {
 	color: white;
-background-color: rgb(10, 10, 100);
-padding-bottom: 100px;
+	background-color: rgb(10, 10, 100);
+	padding-top: 50px;
+	padding-bottom: 50px !important;
 }
 
 ul {
-		list-style-type: none;
-		
-	
+	list-style-type: none;
+	line-height: 15px;
+}
+
+.bgbx{
+   border: 3px solid rgba(255,225,255, .1);
+border-radius: 15px;
 }
