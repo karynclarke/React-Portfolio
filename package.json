@@ -34,7 +34,6 @@
 		],
 		"engines": {
 			"node": "13.13.0"
-		},
-		"browserslist": []
+		}
 	}
 }
