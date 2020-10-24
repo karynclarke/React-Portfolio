@@ -1,5 +1,6 @@
 {
-	"name": "react-portfolio",
+  "name": "react-portfolio",
+  "homepage": "https://karynclarke.github.io/react-portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -36,6 +37,6 @@
 			"last 1 safari version"
     ]
     
-  },
-  "homepage": "https://karynclarke.github.io/react-portfolio"
+  }
+  
 }
