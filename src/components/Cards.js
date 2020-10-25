@@ -3,10 +3,10 @@ import CardItem from './CardItem';
 import './Cards.css';
 import Burger from '../assets/burgerScreenshot.JPG';
 import NoteTaker from '../assets/NoteTakerScreenshot.png';
-import CodingQuiz from '../assets/ScreenshotCodingQuiz.png';
-import SearchReps from '../assets/ScreenshotSearchReps.png';
-import WorkDayScheduler from '../assets/ScreenshotWorkdayScheduler.png';
-import WxDashboard from '../assets/wxdashboard.jpg';
+import Quiz from '../assets/ScreenshotCodingQuiz.png';
+import Reps from '../assets/ScreenshotSearchReps.png';
+import Workday from '../assets/ScreenshotWorkdayScheduler.png';
+import Weather from '../assets/wxdashboard.jpg';
 
 function Cards() {
 	return (
@@ -17,44 +17,43 @@ function Cards() {
 
 					<div className="row__cards">
 						<ul className="cards__items">
-					
-							<CardItem src={WorkdayScheduler} text="Workday Scheduler" 
+							<CardItem src={Workday} text="Workday Scheduler" 
+							 path="/projects" 
 							alt="WorkdayScheduler" />
-							</ul>
-							</div>							
-
-							<ul>
-							{/* Burger */}
-							<CardItem src={Burger} text="Burger App " path="/projects" />
 						</ul>
 					</div>
 
-					{/* ROW 2 */}
-					<div className="row__cards">
-						<ul className="cards__items">
-							{/* WX Dashboard */}
-							<CardItem src="assets/wxdashboard.jpg " text="WeatherDashboard" path="/projects" />
-							</ul>
-							<ul>
-							{/* Note Taker */}
-							<CardItem src="assets/NoteTakerScreenshot.png " text="NoteTaker" path="/projects" />
-						</ul>
-					</div>
+					<ul>
+						{/* Burger */}
+						<CardItem src={Burger} text="Burger App " path="/projects" />
+					</ul>
+				</div>
 
-					{/* ROW 3 */}
-					<div className="row__cards">
-						<ul className="cards__items">
-							{/* Search Reps */}
-							<CardItem src="assets/ScreenshotSearchReps.png " text="SearchMyReps" path="/projects" />
-							</ul>
-<ul>
-							{/* Coding Quiz */}
-							<CardItem src="assets/ScreenshotCodingQuiz.png" text="CodingQuiz" path="/projects" />
-						</ul>
-					</div>
+				{/* ROW 2 */}
+				<div className="row__cards">
+					<ul className="cards__items">
+						{/* WX Dashboard */}
+						<CardItem src={Weather} text="WeatherDashboard" path="/projects" />
+					</ul>
+					<ul>
+						{/* Note Taker */}
+						<CardItem src={NoteTaker} text="NoteTaker" path="/projects" />
+					</ul>
+				</div>
+
+				{/* ROW 3 */}
+				<div className="row__cards">
+					<ul className="cards__items">
+						{/* Search Reps */}
+						<CardItem src={Reps} text="SearchMyReps" path="/projects" />
+					</ul>
+					<ul>
+						{/* Coding Quiz */}
+						<CardItem src={Quiz} text="CodingQuiz" path="/projects" />
+					</ul>
 				</div>
 			</div>
-		
+		</div>
 	);
 }
 
