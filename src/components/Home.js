@@ -7,9 +7,9 @@ function Home() {
 		<div className="homeContainer">
 			<p>
 				<img className="images bgbx" img src={Selfie} alt="Karyn " />
-				
+
 				<div className="words-home">
-					Hello, I'm Karyn. I gradute University of Oregon's Coding Bootcamp in October, 2020. My projects include:
+					Hello, I'm Karyn. I finished University of Oregon's Coding Bootcamp in October, 2020. My projects include:
 					<ul>
 						<li> HTML and CSS</li>
 						<li>Javascript</li>
