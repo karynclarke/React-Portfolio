@@ -1,6 +1,12 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
+import Burger from '../assets/burgerScreenshot.JPG';
+import NoteTaker from '../assets/NoteTakerScreenshot.png';
+import CodingQuiz from '../assets/ScreenshotCodingQuiz.png';
+import SearchReps from '../assets/SearchReps.png';
+import WorkDayScheduler from '../WorkdayScheduler.png';
+import WxDashboard from '../assets/wxdashboard.jpg';
 
 function Cards() {
 	return (
@@ -13,11 +19,12 @@ function Cards() {
 					<div className="row__cards">
 						<ul className="cards__items">
 							{/* WorkDayScheduler */}
-							<CardItem src="assets/ScreenshotWorkdayScheduler.png " text="WorkDayScheduler" path="/projects" />
+							<CardItem src={WorkdayScheduler}
+							alt="WorkdayScheduler"/>
 						{/* </ul> */}
 
 						{/* Burger */}
-						{/* <ul className="cards__items"> */}
+						
 							<CardItem src="assets/burgerScreenshot.jpg " text="Burger App " path="/projects" />
 						</ul>
 					</div>
